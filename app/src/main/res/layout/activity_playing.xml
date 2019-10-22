@@ -30,26 +30,17 @@
             android:layout_height="200dp"
             android:background="#FFFFCC"
             android:textSize="30dp"
-            android:textColor="#000"
-            android:text="Question 1: What is the past simple of the verb to begin?"/>
+            android:textColor="#000" />
+        <LinearLayout
+            android:id="@+id/liner_layout_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
 
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="A"/>
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="B"/>
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="C"/>
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="D"/>
+        </LinearLayout>
     </LinearLayout>
+
 
 
 </LinearLayout>
